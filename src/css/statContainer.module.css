@@ -1,0 +1,38 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 14px;
+}
+
+.container .stat {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    min-width: 20em;
+    max-width: fit-content;
+    padding: 12px 15px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat:not(:nth-child(2))  {
+    background-color: rgb(35, 35, 35 , .80);
+}
+
+.value {
+    font-size: 1.5em;
+}
+
+span {
+    font-size: 15px;
+}
+
+.name {
+    font-size: 1em;
+    color: rgba(255, 255, 255 , 0.50);
+    padding-bottom: 4px;
+}
